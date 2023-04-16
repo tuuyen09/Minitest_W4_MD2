@@ -19,7 +19,7 @@ public class PhoneManager extends Phone implements Iphone {
 
     @Override
     public void sort() {
-        Collections.sort(contactList, new sortContactList());
+        Collections.sort(contactList, new SortContactList());
         for (Contact c : contactList) {
             System.out.println(c);
         }
